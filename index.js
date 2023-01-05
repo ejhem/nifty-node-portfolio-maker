@@ -93,3 +93,10 @@ const generateReadme = ({ title, name, description, installation, usage, license
       message: "Enter your LinkedIn URL.",
     },
   ])
+  .then((answers) => {
+    const readmeContent = generateReadme(answers);
+
+    fs.writeFile("newREADME.md", readmeContent, (err) =>
+      err ? console.log(err) : console.log("Successfully created newREADME.md!")
+    );
+  });
