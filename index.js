@@ -39,7 +39,7 @@ const generateReadme = ({ title, name, description, installation, usage, license
   My linkedIn: https://www.linkedin.com/in/${linkedin}
   My Github: https://github.com/${github}`;
 
-inquirer
+  inquirer
   .prompt([
     {
       type: "input",
@@ -93,10 +93,3 @@ inquirer
       message: "Enter your LinkedIn URL.",
     },
   ])
-  .then((answers) => {
-    const readmeContent = generateReadme(answers);
-
-    fs.writeFile("newREADME.md", readmeContent, (err) =>
-      err ? console.log(err) : console.log("Successfully created newREADME.md!")
-    );
-  });
