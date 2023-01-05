@@ -1,5 +1,5 @@
 {
-  "name": "nifty-node-portfolio-maker",
+  "name": "nifty-node-readme-maker",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ejhem/nifty-node-portfolio-maker.git"
+    "url": "git+https://github.com/ejhem/nifty-node-readme-maker.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ejhem/nifty-node-portfolio-maker/issues"
+    "url": "https://github.com/ejhem/nifty-node-readme-maker/issues"
   },
-  "homepage": "https://github.com/ejhem/nifty-node-portfolio-maker#readme",
+  "homepage": "https://github.com/ejhem/nifty-node-readme-maker#readme",
   "dependencies": {
     "inquirer": "^8.2.4"
   }
